@@ -103,7 +103,7 @@
                     Console.Write("Count : ");
                     count = decimal.Parse(Console.ReadLine());
 
-                    if (count >= 0 & count == Math.Round(count))
+                    if (count >= 0 & count == Math.Round(count) & count <=100)
                         break;
                     else
                         Console.WriteLine("Say duzgun daxil edilmeyib");
