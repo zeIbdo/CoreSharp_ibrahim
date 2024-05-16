@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             decimal resultTotal = 0;
+            //Brand, Category , count, Price and loopTerminationResult are validated
 
             while (true)
             {
