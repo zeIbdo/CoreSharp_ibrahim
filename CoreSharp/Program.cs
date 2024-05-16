@@ -123,7 +123,7 @@
                     Console.WriteLine("Yeni ayaqqabi elave olunsunmu? (Yes, No) (Y, N):  ");
                     loopTerminationResult = Console.ReadLine();
 
-                    if (loopTerminationResult == "Y" | loopTerminationResult == "Yes" | loopTerminationResult == "No" | loopTerminationResult == "N")
+                    if (loopTerminationResult == "Y" || loopTerminationResult == "Yes" || loopTerminationResult == "No" || loopTerminationResult == "N")
                         break;
                     else 
                         Console.WriteLine("Duzgun cavab ver");
